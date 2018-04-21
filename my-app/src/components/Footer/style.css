@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #C22F2F;
+    padding: 5% 0 5% 0;
+}
+
+.fa-envelope, .fa-linkedin, .fa-github, .fa-facebook-f {
+    color: #FFF;
+    font-size: 24px;
+    
+}
+
+.fa-envelope, .fa-linkedin, .fa-github {
+    padding-right: 60%;
+}
