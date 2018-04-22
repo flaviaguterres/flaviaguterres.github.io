@@ -74,7 +74,7 @@ class Principal extends Component {
                 <div className="background">
                     <h2>Experiências</h2>
                     <article className="background-p">
-                        <p> Desde 2017, voltei a me dedicar ao desenvolvimento front-end e a experiência mais recente foi a do curso recém-concluído do <a className="background-link" href="https://codexp.sp.senai.br/" target="_blank">Code Experience</a>, na <a className="background-link" href="https://informatica.sp.senai.br/" target="_blank">Escola SENAI de Informática</a>, onde me atualizei sobre programação, gestão de projetos, gestão de pessoas, design thinking, metodologias ágeis e desenvolvi pequenos projetos com os colegas de turma, simulando um ambiente real de trabalho.</p>    
+                        <p> Desde 2017, voltei a me dedicar ao desenvolvimento front-end e a experiência mais recente foi a do curso recém-concluído do <a className="background-link" href="https://codexp.sp.senai.br/" target="_blank" rel="noopener noreferrer">Code Experience</a>, na <a className="background-link" href="https://informatica.sp.senai.br/" target="_blank" rel="noopener noreferrer">Escola SENAI de Informática</a>, onde me atualizei sobre programação, gestão de projetos, gestão de pessoas, design thinking, metodologias ágeis e desenvolvi pequenos projetos com os colegas de turma, simulando um ambiente real de trabalho.</p>    
                     </article>
                 </div>
             </div>

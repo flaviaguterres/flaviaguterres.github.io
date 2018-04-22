@@ -1,6 +1,6 @@
 .container {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 5% 0 5%;
+    padding: 0 25px 0 25px;
     color: #5D5D5D;
 }
 
@@ -58,4 +58,35 @@
 
 .fa-check {
     color: #C22F2F;
+}
+
+@media screen and (min-width: 768px) {
+    .aboutme h2, .hobbies h2, .education h2, .skills h2, .background h2 {
+        font-size: 34px;
+    }
+    
+    .photoflavia {
+        width: 25%;
+        height: auto;
+    }
+
+    .aboutme-p, .background-p {
+        font-size: 22px;
+    }
+
+    .hobbies-list, .education-list, .skills-list {
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        padding: 0 100px 0 100px;
+    }
+    .photoflavia {
+        width: 10%;   
+    } 
+
+
 }

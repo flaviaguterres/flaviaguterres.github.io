@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #C22F2F;
-    padding: 5% 0 5% 0;
+    padding: 25px 0 25px 0;
 }
 
 .fa-envelope, .fa-linkedin, .fa-github, .fa-facebook-f {
@@ -11,6 +11,23 @@
     
 }
 
-.fa-envelope, .fa-linkedin, .fa-github {
-    padding-right: 60%;
+.fa-envelope, .fa-facebook-f, .fa-linkedin {
+    padding-right: 30px;
 }
+
+@media screen and (min-width: 768px) {
+    .fa-envelope, .fa-linkedin, .fa-github, .fa-facebook-f {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .menu-hamburger {
+        display: none;
+    }
+
+    .menu-list {
+        display: block;
+    }
+} 
