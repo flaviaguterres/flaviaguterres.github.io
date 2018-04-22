@@ -1,14 +1,24 @@
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #C22F2F;
-    padding: 25px 0 25px 0;
+    padding: 15px 0 25px 0;
 }
 
 .fa-envelope, .fa-linkedin, .fa-github, .fa-facebook-f {
     color: #FFF;
     font-size: 24px;
-    
+}
+
+.contact, .copyright {
+    color: #FFF;
+}
+
+.copyright {
+    margin-top: 16px;
+    font-size: 12px;
 }
 
 .fa-envelope, .fa-facebook-f, .fa-linkedin {
@@ -20,6 +30,13 @@
         font-size: 32px;
     }
 
+    .contact {
+        font-size: 22px;
+    } 
+    
+    .copyright {
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -29,5 +46,8 @@
 
     .menu-list {
         display: block;
+    }
+    .footer {
+        padding: 0;
     }
 } 
